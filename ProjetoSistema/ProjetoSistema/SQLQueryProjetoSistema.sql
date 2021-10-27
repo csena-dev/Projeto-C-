@@ -288,16 +288,16 @@ GO
 --LOGINS
 
 INSERT INTO S2_USUARIO(LOGIN_USUR, SENHA_USUR, COD_STAT)
-select 'caio.sena', '123', 1 
+VALUES 'caio.sena', '***', 1 
 
 INSERT INTO S2_USUARIO(LOGIN_USUR, SENHA_USUR, COD_STAT)
-select 'alessandra', '123', 1
+VALUES 'alessandra', '***', 1
 
 INSERT INTO S2_USUARIO(LOGIN_USUR, SENHA_USUR, COD_STAT)
-select 'marcos.oliveira', '123', 1
+VALUES 'marcos.oliveira', '***', 1
 
 INSERT INTO S2_USUARIO(LOGIN_USUR, SENHA_USUR, COD_STAT)
-select 'eliezer', '123', 
+VALUES 'eliezer', '**', 1
 -----------------------------------------------------
 -- COMBO BOX STATUS DA TELA DE FUNCIONARIO
 
